@@ -1,0 +1,7 @@
+# SQL Validation – GCL Feed QA
+
+This script validates GCL regulatory reporting feed integrity:
+- Ensures matching record counts between source and target
+- Checks for nulls in key fields
+- Performs field-level match for critical columns
+- Detects duplicate records
