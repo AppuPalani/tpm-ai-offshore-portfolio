@@ -1,0 +1,28 @@
+# Sprint 14 Retrospective Summary
+
+## Date:
+May 20, 2024
+
+## Attendees:
+QA Team, Dev Team, BA, Scrum Master, Project Sponsor
+
+## Format:
+Start / Stop / Continue
+
+---
+
+### ✅ What Went Well
+- Daily stand-ups helped uncover blockers early
+- Completed GCL Data QA ahead of schedule
+- High team collaboration despite hybrid setup
+
+### 🛑 What Didn’t Go Well
+- Automation story (RR-235) carried over due to unclear scope
+- Misalignment on data availability caused delays
+
+### 🔄 Action Items
+- Refine story acceptance criteria during backlog grooming
+- Sync with data engineering earlier in sprint
+- Establish weekly QA–Dev sync for shared scenarios
+
+---
