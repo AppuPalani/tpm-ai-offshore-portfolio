@@ -1,0 +1,19 @@
+# Robot Framework – Automation Test for Shopping Website
+
+## Test Case: Valid Login and Product Search
+
+This test suite automates the following flow using Robot Framework:
+1. Open browser and navigate to login page
+2. Perform login with valid credentials
+3. Search for a product (e.g., Wireless Mouse)
+4. Validate that the product is listed in search results
+
+### 🧪 Tools Used
+- Robot Framework
+- SeleniumLibrary
+- Chrome WebDriver
+
+### 📂 File Structure
+- `shopping_test.robot`: Main test case
+- `resources.robot`: Keyword definitions
+- `variables.robot`: URL and credentials
