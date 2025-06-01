@@ -1,0 +1,36 @@
+# Sprint Plan – Regulatory Reporting Sprint 14
+
+## Sprint Duration:
+May 6, 2024 – May 20, 2024 (2 Weeks)
+
+## Sprint Goal:
+To complete integration testing for the CCAR14A daily reporting feed and finalize automation coverage for transaction traceability checks.
+
+## Key Deliverables:
+- QA ETL test execution for GCL feed [✓]
+- Automation suite coverage for 3 critical scenarios using Selenium + data validation
+- Stakeholder demo of regulatory dashboard (Tableau)
+
+## Team Capacity:
+- QA: 3 (1 offshore, 2 onsite)
+- Dev: 4
+- BA: 1
+- Scrum Master: 1
+
+## Sprint Backlog:
+| Story ID | Title                                 | Owner   | Est. Points | Status   |
+|----------|---------------------------------------|---------|-------------|----------|
+| RR-234   | Validate GCL data load (ETL)         | Aparnaa | 5           | In Progress |
+| RR-235   | Automate high-risk checks (Selenium)  | QA Team | 8           | To Do    |
+| RR-236   | Review data lineage mapping           | BA Team | 3           | Done     |
+| RR-237   | Prepare for demo with Compliance team | Scrum Master | 2     | To Do    |
+
+## Risks:
+- Delay in upstream data feed refresh
+- Potential blocker from compliance UAT sign-off
+
+## Mitigation:
+- Created mock data for interim validation
+- Pre-scheduled UAT demo with compliance
+
+---
