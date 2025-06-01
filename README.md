@@ -1,14 +1,13 @@
-# tpm-ai-offshore-portfolio
+# Technical Project Manager Portfolio – AI & Offshore Projects
+
 Welcome! I'm Aparnaa Mariappan, a Technical Project Manager with 16+ years of experience in QA, Agile delivery, and data-driven software development. This portfolio highlights my technical and leadership capabilities, especially in managing offshore teams and supporting AI/cloud projects.
 
-### Agile Dashboard – Regulatory Reporting
+## 📁 Contents
 
-This dashboard visualizes sprint progress for a multi-country regulatory reporting initiative in an investment bank. Features include:
+- 🛠 Project Management & Agile
+- ✅ QA Automation & Test Strategy
+- 📊 Data Validation & Business Analysis
+- 🤖 AI/ML Awareness Projects
+- ☁️ Cloud Deployment & Readiness
 
-- Sprint backlog with prioritized epics: Data Integration, QA Automation, UAT Support
-- Real-time burn-down chart tracking completion
-- Task breakdown: story points, test coverage, and status flags
-
-_Tool used: JIRA Cloud_
-
-
+> Currently pursuing MBA in Analytics & Data Science to enhance my AI/ML and data engineering skillsets.
