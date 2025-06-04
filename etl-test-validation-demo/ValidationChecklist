@@ -1,0 +1,8 @@
+# Power BI Report Validation – Sales Dashboard
+
+✅ Confirm data source points to correct mart  
+✅ Validate report filters (e.g., date, region)  
+✅ Check field mappings to data mart (amount, region, sales)  
+✅ Match calculated measures (total sales, avg discount)  
+✅ Drill-through and slicer functionality  
+✅ Exported values vs raw SQL match
