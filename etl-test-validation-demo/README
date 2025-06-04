@@ -1,0 +1,22 @@
+# ETL Test Validation Demo
+
+This project simulates ETL testing in a simplified data warehouse environment. It includes test cases, SQL validation scripts, and an automated Python validation for comparing source and target datasets.
+
+### 🧪 Validations Covered
+- Row count check
+- Null checks for critical fields
+- Transformation logic validation
+- Duplicate data detection
+
+### 🗂 Components
+- SQL Scripts
+- Python Automation (Pandas)
+- UAT Test Case Templates
+- BI Validation Checklist
+
+### 👩‍💻 Tools Used
+- SQL Server
+- Python (Pandas)
+- Excel
+- Power BI (manual testing checklist)
+
