@@ -1,6 +1,8 @@
-# Technical Project Manager Portfolio – AI & Offshore Projects
+# My Skills Portfolio
 
-Welcome! I'm Aparnaa Mariappan, a Technical Project Manager with 16+ years of experience in QA, Agile delivery, and data-driven software development. This portfolio highlights my technical and leadership capabilities, especially in managing offshore teams and supporting AI/cloud projects.
+Welcome! I'm Aparnaa Mariappan, a technical lead with 16+ years of experience in QA, Agile delivery, and data-driven software testing. 
+
+This portfolio highlights my skills and leadership capabilities, especially in managing offshore teams and supporting automation/ETL projects.
 
 ## 📁 Contents
 
