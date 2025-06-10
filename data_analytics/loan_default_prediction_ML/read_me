@@ -1,0 +1,34 @@
+# 🤖 Loan Default Prediction – Logistic Regression
+
+This project uses logistic regression to predict whether a loan application will be approved or defaulted based on applicant attributes.
+
+## 📁 Dataset
+- `Loan_default_Dataset.csv`  
+  Contains demographic and financial features related to loan applications.
+
+## 🔧 Technologies Used
+- Python
+- pandas, scikit-learn
+- Logistic Regression
+- Jupyter / VSCode / CLI
+
+## 📊 Workflow
+1. Load and clean data
+2. Encode categorical variables
+3. Train/Test split
+4. Train logistic regression model
+5. Evaluate model accuracy and metrics
+
+## 📌 Output Metrics
+- Accuracy Score
+- Confusion Matrix
+- Classification Report (Precision, Recall, F1)
+
+## 📎 Next Steps
+- Try alternate classifiers (Random Forest, XGBoost)
+- Perform hyperparameter tuning
+- Create a dashboard in Power BI with feature insights
+
+---
+
+📬 Contact: [Aparnaa Mariappan](https://www.linkedin.com/in/aparnaamariappan)
