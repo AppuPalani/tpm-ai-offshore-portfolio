@@ -60,4 +60,23 @@ Only **1 sample** was misclassified out of 60 test cases.
 - **Imbalanced data** can be misleading if you only look at accuracy.
 - Logistic regression performs well when combined with **class weighting**.
 - Even small datasets can give strong insights with proper preprocessing.
+---
+
+## How to Run Instructions
+1. Clone the repository.
+2. Install dependencies (In CMD prompt, run pip install -r requirements.txt)
+3.  Run the jupyter notebook (loan_default_prediction.ipynb)
+
+*** Requirements ***
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+jupyter
+(Include them in a requirements.txt file)
+
+Author
+Aparnaa Mariappan
+Connect with me on LinkedIn [http://www.linkedin.com/in/aparnaamariappan/]
 
