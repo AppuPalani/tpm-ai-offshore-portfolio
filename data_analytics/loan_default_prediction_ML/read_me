@@ -1,34 +1,63 @@
-# 🤖 Loan Default Prediction – Logistic Regression
+# Loan Default Risk Prediction using Logistic Regression
 
-This project uses logistic regression to predict whether a loan application will be approved or defaulted based on applicant attributes.
-
-## 📁 Dataset
-- `Loan_default_Dataset.csv`  
-  Contains demographic and financial features related to loan applications.
-
-## 🔧 Technologies Used
-- Python
-- pandas, scikit-learn
-- Logistic Regression
-- Jupyter / VSCode / CLI
-
-## 📊 Workflow
-1. Load and clean data
-2. Encode categorical variables
-3. Train/Test split
-4. Train logistic regression model
-5. Evaluate model accuracy and metrics
-
-## 📌 Output Metrics
-- Accuracy Score
-- Confusion Matrix
-- Classification Report (Precision, Recall, F1)
-
-## 📎 Next Steps
-- Try alternate classifiers (Random Forest, XGBoost)
-- Perform hyperparameter tuning
-- Create a dashboard in Power BI with feature insights
+This project demonstrates a supervised machine learning approach to predicting loan default risk using a logistic regression model. 
+It uses borrower financial data such as retirement age, debt amount, and monthly savings to predict whether the individual is at risk of loan default.
 
 ---
 
-📬 Contact: [Aparnaa Mariappan](https://www.linkedin.com/in/aparnaamariappan)
+## 📁 Dataset
+
+The dataset contains the following features:
+- `Retirement_Age`: The age at which the individual is expected to retire.
+- `Debt_Amount`: The current outstanding debt.
+- `Monthly_Savings`: Average amount saved per month.
+- `Loan_Default_Risk`: Target variable (0 = No Default, 1 = Will Default)
+
+There are missing values in some columns which are handled through **mean imputation**.
+
+---
+
+## 🔍 Objective
+
+To build a **logistic regression classifier** that predicts the probability of a loan default, while:
+- Handling missing data
+- Addressing class imbalance
+- Evaluating the model's performance using classification metrics
+
+---
+
+## 🛠️ Workflow
+
+1. **Data Cleaning**
+   - Missing values imputed using the column mean.
+   - No categorical variables; hence no encoding required.
+
+2. **Train-Test Split**
+   - 80% training, 20% testing.
+
+3. **Model Training**
+   - Logistic Regression with `class_weight='balanced'` to handle class imbalance.
+
+4. **Model Evaluation**
+   - Classification report (precision, recall, F1-score)
+   - Confusion matrix visualization
+
+---
+
+## 📊 Results
+
+The model achieved **98% accuracy** with high recall and precision on both classes:
+
+- Class 0 (No Default): 97% precision, 100% recall
+- Class 1 (Will Default): 100% precision, 97% recall
+
+Only **1 sample** was misclassified out of 60 test cases.
+
+---
+
+## 🧠 Key Takeaways
+
+- **Imbalanced data** can be misleading if you only look at accuracy.
+- Logistic regression performs well when combined with **class weighting**.
+- Even small datasets can give strong insights with proper preprocessing.
+
