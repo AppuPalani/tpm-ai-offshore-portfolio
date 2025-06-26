@@ -6,21 +6,6 @@ This project performs Exploratory Data Analysis on a sample telecom customer dat
 
 ## 🔍 Objective
 
-The goal is to analyze telecom customer behavior, identify patterns that contribute to churn, and uncover potential areas for business intervention using visual 
-and statistical insights.
-
----
-
-## 📁 Dataset
-
-- `# 📊 Telecom Churn Analysis – Exploratory Data Analysis (EDA)
-
-This project performs Exploratory Data Analysis on a sample telecom customer dataset to understand key drivers behind customer churn.
-
----
-
-## 🔍 Objective
-
 The goal is to analyze telecom customer behavior, identify patterns that contribute to churn, and uncover potential areas for business intervention using visual and statistical insights.
 
 ---
